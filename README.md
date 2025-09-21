@@ -71,24 +71,20 @@ Authorization: Bearer <access_token>
 
 ## 📘 Endpoints
 ### Users
-POST /users/api/auth/register/ → Register new user
-
-POST /users/api/auth/login/ → Obtain JWT tokens
+POST /api/users/auth/register/
+POST /api/users/auth/login/
 
 ### Books
-GET /api/books/ → List all books
-
-POST /api/books/ → Create new book (auth required)
-
-GET /api/books/{id}/ → Get book details
-
-PUT /api/books/{id}/ → Update book (auth required)
-
-DELETE /api/books/{id}/ → Delete book (auth required)
+GET /api/books/
+POST /api/books/
+GET /api/books/{id}/
+PUT /api/books/{id}/
+DELETE /api/books/{id}/
+GET /api/books/{book_id}/reviews/
+POST /api/books/{book_id}/reviews/add/
 
 ### Reviews
 GET /api/books/{book_id}/reviews/ → List reviews for a book
-
 POST /api/books/{book_id}/reviews/add/ → Add review (auth required)
 
 ## API Documentation
