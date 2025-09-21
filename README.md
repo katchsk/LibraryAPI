@@ -16,7 +16,7 @@ A Django REST Framework (DRF) project with JWT authentication, book and review m
 ## Setup
 
 ### 1. Clone repository
-git clone https://github.com/yourusername/LibraryAPI.git
+git clone https://github.com/katchsk/LibraryAPI.git
 cd LibraryAPI
 
 ### 2. Create virtual environment
